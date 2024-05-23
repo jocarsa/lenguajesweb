@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <input type="number" id="numero1">
+        <input type="number" id="numero2">
+        <button>Suma</button>
+        <div id="resultado"></div>
+        <script>
+            document.querySelector("button").onclick = function(){
+                console.log("Has hecho click en el botón");
+                var valor1 = document.querySelector("#numero1").value;
+                console.log("El valor es: "+valor1);
+                var valor2 = document.querySelector("#numero2").value;
+                console.log("El valor es: "+valor2);
+                var suma = Number(valor1) + Number(valor2);
+                document.querySelector("#resultado").innerHTML = "La suma es :"+suma;
+            };
+        </script>
+    </body>
+</html>

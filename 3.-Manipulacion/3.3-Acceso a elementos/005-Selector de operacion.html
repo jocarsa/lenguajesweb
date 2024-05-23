@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <input type="number" id="numero1">
+        <select>
+            <option>Selecciona una operacion</option>
+            <option value="suma">+</option>
+            <option value="resta">-</option>
+            <option value="multiplicacion">*</option>
+            <option value="division">/</option>
+        </select>
+        <input type="number" id="numero2">
+        <button>Resuelve</button>
+        <div id="resultado"></div>
+        <script>
+            document.querySelector("button").onclick = function(){
+                console.log("Has hecho click en el botón");
+                var valor1 = document.querySelector("#numero1").value;
+                console.log("El valor es: "+valor1);
+                var valor2 = document.querySelector("#numero2").value;
+                console.log("El valor es: "+valor2);
+                var operacion = document.querySelector("select").value;
+                if(operacion == "suma"){
+                    var resultado = Number(valor1) + Number(valor2);
+                }else if(operacion == "resta"){
+                    var resultado = Number(valor1) - Number(valor2);
+                }else if(operacion == "multiplicacion"){
+                    var resultado = Number(valor1) * Number(valor2);
+                }else if(operacion == "division"){
+                    var resultado = Number(valor1) / Number(valor2);
+                }
+                document.querySelector("#resultado").innerHTML = "El resultado es :"+resultado;
+            };
+        </script>
+    </body>
+</html>

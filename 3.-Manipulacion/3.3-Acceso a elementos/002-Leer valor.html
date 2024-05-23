@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <input type="number" id="numero1">
+        <button>Pulsa</button>
+        <script>
+            document.querySelector("button").onclick = function(){
+                console.log("Has hecho click en el botón");
+                var valor1 = document.querySelector("#numero1").value;
+                console.log("El valor es: "+valor1);
+            };
+        </script>
+    </body>
+</html>
