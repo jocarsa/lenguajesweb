@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            class Evento{
+                constructor(
+                        mianio,
+                        mimes,
+                        midia,
+                        mititulo,
+                        micolor,
+                        micategoria){
+                    this.anio = mianio
+                    this.mes = mimes
+                    this.dia = midia
+                    this.titulo = mititulo
+                    this.color = micolor
+                    this.categoria = micategoria
+                }
+                getEvento(){
+                    return [this.anio,this.mes,this.dia,this.mititulo,this.color,this.categoria]
+                }
+            }
+            let eventos = []
+            eventos[0] = new Evento(2024,5,30,"titulo","red","1");
+            eventos[1] = new Evento(2024,5,30,"titulo","red","1");
+            eventos[2] = new Evento(2024,5,30,"titulo","red","1");
+            eventos[3] = new Evento(2024,5,30,"titulo","red","1");
+            console.log(eventos)
+        </script>
+    </body>
+</html>

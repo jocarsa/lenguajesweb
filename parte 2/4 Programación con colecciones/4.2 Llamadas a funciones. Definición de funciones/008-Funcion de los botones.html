@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .calendario {
+                font-family: sans-serif;
+                width: 790px;
+                position: relative;
+            }
+            .calendario .dia {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                border: 1px solid grey;
+                box-sizing: border-box;
+                position: relative;
+            }
+            .calendario .modal {
+                width: 400px;
+                height: 400px;
+                background: white;
+                padding: 20px;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .evento {
+                width: calc(100% - 20px);
+                height: 40px;
+                background: red;
+                border-radius: 5px;
+                color: white;
+                padding: 10px;
+                box-sizing: border-box;
+                line-height: 20px;
+                margin-top: 5px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            h1{
+                display:block;
+                clear:both;
+                width:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="calendario"></div>
+        <script>
+            var hoy = new Date();
+            var mesactual = hoy.getMonth();
+
+            function calendario(mianio, mimes) {
+                console.log("vamos con el calendario");
+                let contador = 0;
+                let elemento = document.querySelector(".calendario");
+                elemento.innerHTML = "";
+                elemento.innerHTML = "<h1>Calendario</h1>";
+
+                let botonatras = document.createElement("button");
+                botonatras.innerHTML = "Anterior";
+                let botondelante = document.createElement("button");
+                botondelante.innerHTML = "Posterior";
+                
+                botonatras.onclick = function(){
+                    mesactual--
+                    calendario(hoy.getFullYear(),mesactual)
+                }
+                botondelante.onclick = function(){
+                    mesactual++
+                    calendario(hoy.getFullYear(),mesactual)
+                }
+
+                elemento.appendChild(botonatras);
+                elemento.appendChild(botondelante);
+                
+               
+
+                
+                let barra = document.createElement("hr");
+                elemento.appendChild(barra)
+
+                var diacomienzo = new Date(mianio, mimes, 1);
+                var numerodia = diacomienzo.getDay();
+
+                for (let i = 0; i < numerodia - 1; i++) {
+                    let dia = document.createElement("div");
+                    dia.setAttribute("class", "dia vacio");
+                    dia.innerHTML = "-";
+                    elemento.appendChild(dia);
+                    contador++;
+                }
+
+                var siguienteDia = new Date(mianio, mimes + 1, 1);
+                var ultimoDia = new Date(siguienteDia - 1);
+                var numeroDeDias = ultimoDia.getDate();
+
+                for (let i = 1; i <= numeroDeDias; i++) {
+                    let dia = document.createElement("div");
+                    if ((contador + 1) % 7 == 0 || (contador + 2) % 7 == 0) {
+                        dia.style.background = "aliceblue";
+                    }
+                    dia.setAttribute("class", "dia");
+                    dia.innerHTML = i;
+                    dia.onclick = function() {
+                        console.log("Has hecho click en un día");
+                        let modal = document.createElement("div");
+                        modal.classList.add("modal");
+                        let nombre = document.createElement("input");
+                        modal.appendChild(nombre);
+                        let boton = document.createElement("button");
+                        boton.innerHTML = "Enviar";
+                        modal.appendChild(boton);
+                        elemento.appendChild(modal);
+                        boton.onclick = function() {
+                            let evento = document.createElement("div");
+                            evento.classList.add("evento");
+                            evento.innerHTML = nombre.value;
+                            dia.appendChild(evento);
+                            elemento.removeChild(modal);
+                        }
+                    }
+                    elemento.appendChild(dia);
+                    contador++;
+                }
+
+                
+            }
+
+            calendario(hoy.getFullYear(), mesactual);
+        </script>
+    </body>
+</html>
