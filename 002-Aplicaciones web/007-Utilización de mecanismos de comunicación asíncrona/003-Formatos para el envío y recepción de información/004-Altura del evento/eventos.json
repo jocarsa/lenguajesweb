@@ -1,0 +1,52 @@
+[
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "14",
+        "titulo": "111",
+        "color": "#e21818",
+        "categoria": "1",
+        "horainicio": "19:31",
+        "horafinal": "19:31"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "6",
+        "titulo": "ddd",
+        "color": "#31dd45",
+        "categoria": "1",
+        "horainicio": "19:32",
+        "horafinal": "19:33"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "7",
+        "titulo": "prueba",
+        "color": "#3655ec",
+        "categoria": "1",
+        "horainicio": "20:31",
+        "horafinal": "21:31"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "12",
+        "titulo": "ma\u00f1ana",
+        "color": "#c20f0f",
+        "categoria": "1",
+        "horainicio": "08:36",
+        "horafinal": "20:36"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "12",
+        "titulo": "otro",
+        "color": "#4edc32",
+        "categoria": "1",
+        "horainicio": "16:36",
+        "horafinal": "19:36"
+    }
+]

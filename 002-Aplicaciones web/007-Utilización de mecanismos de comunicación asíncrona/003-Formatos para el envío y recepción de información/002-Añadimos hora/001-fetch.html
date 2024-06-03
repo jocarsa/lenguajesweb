@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .calendario {
+                font-family: sans-serif;
+                width: 790px;
+                position: relative;
+                
+                
+            }
+            .calendario .dia {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                border: 1px solid grey;
+                box-sizing: border-box;
+                position: relative;
+                padding:4px;
+                
+            }
+            .calendario .modal {
+                width: 400px;
+                height: 400px;
+                background: white;
+                padding: 20px;
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .evento {
+                width: calc(100% - 20px);
+                height: 20px;
+                background: red;
+                border-radius: 5px;
+                color: white;
+                padding: 3px;
+                box-sizing: border-box;
+                line-height: 20px;
+                margin-top: 5px;
+                position:absolute;
+                bottom: 4px;
+                left: 4px;
+                font-size:8px;
+                width:90%;
+            }
+            h1{
+                display:block;
+                clear:both;
+                width:100%;
+            }
+            .modal{
+                padding:20px;
+                box-sizing: border-box;
+            }
+            .modal *{
+                width:100%;
+                padding:10px;
+                box-sizing: border-box;
+                margin-bottom:10px;
+            }
+            .error{
+                background:rgb(255,200,200);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="calendario"></div>
+        <script>
+            class Evento{
+                constructor(
+                        mianio,
+                        mimes,
+                        midia,
+                        mititulo,
+                        micolor,
+                        micategoria,
+                        mihorainicio,
+                        mihorafinal){
+                    this.anio = mianio
+                    this.mes = mimes
+                    this.dia = midia
+                    this.titulo = mititulo
+                    this.color = micolor
+                    this.categoria = micategoria
+                    this.horainicio = mihorainicio
+                    this.horafinal = mihorafinal
+                }
+                getEvento(){
+                    return [this.anio,this.mes,this.dia,this.mititulo,this.color,this.categoria,this.horainicio,this.horafinal]
+                }
+            }
+            var eventos = [];
+            var hoy = new Date();
+            var mesactual = hoy.getMonth();
+            var meses = [
+                'enero',
+                'febrero',
+                'marzo',
+                'abril',
+                'mayo',
+                'junio',
+                'julio',
+                'agosto',
+                'septiembre',
+                'octubre',
+                'noviembre',
+                'diciembre'
+            ];
+            function calendario(mianio, mimes) {
+                console.log("vamos con el calendario");
+                let contador = 0;
+                let elemento = document.querySelector(".calendario");
+                elemento.innerHTML = "";
+                elemento.innerHTML = "<h1>Calendario - "+meses[mimes]+" 2024</h1>";
+
+                let botonatras = document.createElement("button");
+                botonatras.innerHTML = "Anterior";
+                let botondelante = document.createElement("button");
+                botondelante.innerHTML = "Posterior";
+                
+                botonatras.onclick = function(){
+                    mesactual--
+                    calendario(hoy.getFullYear(),mesactual)
+                }
+                botondelante.onclick = function(){
+                    mesactual++
+                    calendario(hoy.getFullYear(),mesactual)
+                }
+
+                elemento.appendChild(botonatras);
+                elemento.appendChild(botondelante);
+                
+                let barra = document.createElement("hr");
+                elemento.appendChild(barra)
+
+                var diacomienzo = new Date(mianio, mimes, 1);
+                var numerodia = diacomienzo.getDay();
+
+                for (let i = 0; i < numerodia - 1; i++) {
+                    let dia = document.createElement("div");
+                    dia.setAttribute("class", "dia vacio");
+                    dia.innerHTML = "-";
+                    elemento.appendChild(dia);
+                    contador++;
+                }
+
+                var siguienteDia = new Date(mianio, mimes + 1, 1);
+                var ultimoDia = new Date(siguienteDia - 1);
+                var numeroDeDias = ultimoDia.getDate();
+
+                for (let i = 1; i <= numeroDeDias; i++) {
+                    let dia = document.createElement("div");
+                    if ((contador + 1) % 7 == 0 || (contador + 2) % 7 == 0) {
+                        dia.style.background = "aliceblue";
+                    }
+                    dia.setAttribute("class", "dia");
+                    dia.setAttribute("anio",hoy.getFullYear());
+                    dia.setAttribute("mes",hoy.getMonth()+1);
+                    dia.setAttribute("dia",i);
+                    dia.setAttribute("fecha",hoy.getFullYear()+"-"+(hoy.getMonth()+1)+"-"+i);
+                    dia.innerHTML = i;
+                    dia.onclick = function() {
+                        console.log("Has hecho click en un día");
+                        let modal = document.createElement("div");
+                        modal.classList.add("modal");
+                        let label1 = document.createElement("label");
+                        label1.innerHTML = "Indica el nombre del evento";
+                        modal.appendChild(label1);
+                        let nombre = document.createElement("input");
+                        modal.appendChild(nombre);
+                        
+                        
+                        
+                        let label2 = document.createElement("label");
+                        label2.innerHTML = "Escoge un color";
+                        modal.appendChild(label2);
+                        let color = document.createElement("input");
+                        color.setAttribute("type","color")
+                        modal.appendChild(color);
+                        
+                        let label3 = document.createElement("label");
+                        label3.innerHTML = "Escoge hora de inicio";
+                        modal.appendChild(label3);
+                        let horainicio = document.createElement("input");
+                        horainicio.setAttribute("type","time")
+                        modal.appendChild(horainicio);
+                        
+                        let label4 = document.createElement("label");
+                        label4.innerHTML = "Escoge hora de inicio";
+                        modal.appendChild(label4);
+                        let horafinal = document.createElement("input");
+                        horafinal.setAttribute("type","time")
+                        modal.appendChild(horafinal);
+                        
+                        let boton = document.createElement("button");
+                        boton.innerHTML = "Enviar";
+                        modal.appendChild(boton);
+                        elemento.appendChild(modal);
+                        document.querySelector("body").onkeyup = function(e){
+                            if(e.key === "Escape") {
+                                console.log("escape")
+                                elemento.removeChild(modal);
+                            }
+                        }
+                        boton.onclick = function() {
+                            if(nombre.value != ""){
+                                let valhorainicio = horainicio.value
+                                let valhorafinal = horafinal.value
+                                let evento = document.createElement("div");
+                                evento.classList.add("evento");
+                                evento.innerHTML = nombre.value;
+                                dia.appendChild(evento);
+                                elemento.removeChild(modal);
+                                eventos.push(new Evento(
+                                    dia.getAttribute('anio'),
+                                    dia.getAttribute('mes'),
+                                    dia.getAttribute('dia'),
+                                    nombre.value,
+                                    'red',
+                                    '1',
+                                    valhorainicio,
+                                    valhorafinal
+                                ))
+                                localStorage.setItem("eventos",JSON.stringify(eventos))
+                                console.log(eventos)
+                                fetch("eventos.php?eventos="+JSON.stringify(eventos))
+                            }else{
+                                nombre.setAttribute("placeholder","Debes introducir algo en este campo")
+                                nombre.classList.add("error")
+                            }
+                        }
+                    }
+                    elemento.appendChild(dia);
+                    contador++;
+                }
+                /*
+                console.log("vamos a recuperar eventos de la memoria")
+                eventos = JSON.parse(localStorage.getItem("eventos"))
+                console.log(eventos)
+                for(let i = 0;i<eventos.length;i++){
+                    console.log(eventos[i].mes,mimes)
+                    if(eventos[i].mes == mimes+1){
+                        nuevoevento = document.createElement("div")
+                        
+                        diaseleccionado = document.querySelector("div[fecha='"+eventos[i].anio+"-"+eventos[i].mes+"-"+eventos[i].dia+"']")
+                        nuevoevento.classList.add("evento")
+                        nuevoevento.innerHTML = eventos[i].titulo
+                        diaseleccionado.appendChild(nuevoevento)
+                        
+                        
+                    }
+                }
+                */
+                console.log("Recuperamos eventos del servidor")
+                fetch("eventos.json")
+                .then(response => {
+                    return response.json(); 
+                })
+                .then(data => {
+                    console.log(data);
+                    eventos = data
+                    for(let i = 0;i<eventos.length;i++){
+                        console.log(eventos[i].mes,mimes)
+                        if(eventos[i].mes == mimes+1){
+                            nuevoevento = document.createElement("div")
+
+                            diaseleccionado = document.querySelector("div[fecha='"+eventos[i].anio+"-"+eventos[i].mes+"-"+eventos[i].dia+"']")
+                            nuevoevento.classList.add("evento")
+                            nuevoevento.innerHTML = eventos[i].horainicio+": "+eventos[i].titulo
+                            diaseleccionado.appendChild(nuevoevento)
+
+
+                        }
+                    }
+                })
+            }
+
+            calendario(hoy.getFullYear(), mesactual);
+        </script>
+    </body>
+</html>

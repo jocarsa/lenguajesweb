@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Animaciones</title>
+        <meta charset="utf-8">
+        <style>
+            #objetivo{
+                background:red;
+                width:200px;
+                height:200px;
+                padding:10px;
+                color:white;
+                border-radius:5px;
+                transform-style: preserve-3d;
+            }
+            .anima{
+                animation:rota 2s;
+                animation-fill-mode: none;
+                
+            }
+            @keyframes rota{
+                0%{transform: rotateY(0deg);}
+                100%{transform: rotateY(180deg);}
+            }
+            body{
+                perspective: 1000px;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Ejecuta</button>
+        <div id="objetivo">
+            Este es un id
+        </div>
+        <script>
+            document.querySelector("button").onclick = function(){
+                document.querySelector("#objetivo").classList.add("anima")
+                setTimeout(function(){
+                    document.querySelector("#objetivo").classList.remove("anima")
+                },2000)
+            }
+        </script>
+    </body>
+</html>

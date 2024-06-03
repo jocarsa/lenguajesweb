@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Reproductor</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <video src="entrevista.mp4" controls></video>
+        <aside>
+            <button id="cap1">1.-Presentación</button>
+            <button id="cap2">2.-Experiencia</button>
+            <button id="cap3">3.-Lo que mas me gusta</button>
+            <button id="cap4">4.-Formación online</button>
+        </aside>
+        <script>
+            var video = document.querySelector("video")
+            document.getElementById("cap1").onclick = function(){
+                video.currentTime = 0
+            }
+            document.getElementById("cap2").onclick = function(){
+                video.currentTime = 19
+            }
+            document.getElementById("cap3").onclick = function(){
+                video.currentTime = 32
+            }
+            document.getElementById("cap4").onclick = function(){
+                video.currentTime = 132
+            }
+        </script>
+    </body>
+</html>

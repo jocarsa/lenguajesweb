@@ -1,0 +1,23 @@
+[
+    {
+        "anio":2024,
+        "mes":6,
+        "dia":3,
+        "titulo":"evento 1",
+        "color":"red"
+    },
+    {
+        "anio":2024,
+        "mes":6,
+        "dia":4,
+        "titulo":"evento 2",
+        "color":"green"
+    },
+    {
+        "anio":2024,
+        "mes":6,
+        "dia":5,
+        "titulo":"evento 3",
+        "color":"blue"
+    }
+]

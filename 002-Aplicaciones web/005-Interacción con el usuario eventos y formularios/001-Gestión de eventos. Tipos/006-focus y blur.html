@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <input>
+        <script>
+            var campo = document.querySelector("input")
+            campo.onfocus = function(){
+                console.log("Has entrado en el campo")
+            }
+            campo.onblur = function(){
+                console.log("Has salido del campo")
+            }
+        </script>
+    </body>
+</html>

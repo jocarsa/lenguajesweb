@@ -1,0 +1,36 @@
+[
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "4",
+        "titulo": "a",
+        "color": "red",
+        "categoria": "1"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "6",
+        "titulo": "esto es otro",
+        "color": "red",
+        "categoria": "1"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "7",
+        "titulo": "prueba",
+        "color": "red",
+        "categoria": "1"
+    },
+    {
+        "anio": "2024",
+        "mes": "6",
+        "dia": "14",
+        "titulo": "prueba",
+        "color": "red",
+        "categoria": "1",
+        "horainicio": "19:17",
+        "horafinal": "22:20"
+    }
+]

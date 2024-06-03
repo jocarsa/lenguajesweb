@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg874"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="esquema.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview876"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.78127806"
+     inkscape:cx="629.73738"
+     inkscape:cy="387.82607"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs871">
+    <marker
+       style="overflow:visible"
+       id="marker3321"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1"
+       markerWidth="4.0606604"
+       markerHeight="6.7071066"
+       viewBox="0 0 4.0606602 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         id="path3319"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1"
+       markerWidth="4.0606604"
+       markerHeight="6.7071066"
+       viewBox="0 0 4.0606602 6.7071068"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         id="path5057"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2845"
+       width="68.17189"
+       height="80.691391"
+       x="116.29079"
+       y="17.218182"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2839"
+       width="61.581623"
+       height="66.911728"
+       x="119.64584"
+       y="28.241899"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2781"
+       width="52.954365"
+       height="52.772617"
+       x="123.1207"
+       y="38.067387"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2667"
+       width="44.566753"
+       height="16.945534"
+       x="128.39291"
+       y="49.69022"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="138.78581"
+       y="55.511303"
+       id="text2671"><tspan
+         sodipodi:role="line"
+         id="tspan2669"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="138.78581"
+         y="55.511303">css</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2505"
+       width="44.566753"
+       height="16.945534"
+       x="128.39291"
+       y="61.193226"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="143.69858"
+       y="67.014313"
+       id="text2561"><tspan
+         sodipodi:role="line"
+         id="tspan2559"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="143.69858"
+         y="67.014313">html</tspan></text>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2775"
+       width="44.566753"
+       height="16.945534"
+       x="128.39291"
+       y="71.378189"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="135.5506"
+       y="77.199265"
+       id="text2779"><tspan
+         sodipodi:role="line"
+         id="tspan2777"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="135.5506"
+         y="77.199265">js</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="170.53891"
+       y="35.381035"
+       id="text2837"><tspan
+         sodipodi:role="line"
+         id="tspan2835"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="170.53891"
+         y="35.381035">SSOO (Windows)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="169.46051"
+       y="44.36776"
+       id="text2843"><tspan
+         sodipodi:role="line"
+         id="tspan2841"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="169.46051"
+         y="44.36776">navegador web</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="161.07289"
+       y="24.357317"
+       id="text2849"><tspan
+         sodipodi:role="line"
+         id="tspan2847"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="161.07289"
+         y="24.357317">equipo cliente</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2851"
+       width="68.17189"
+       height="80.691391"
+       x="116.29079"
+       y="120.42755"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2853"
+       width="61.581623"
+       height="66.911728"
+       x="119.64584"
+       y="131.45126"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2855"
+       width="52.954365"
+       height="52.772617"
+       x="123.1207"
+       y="141.27676"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2857"
+       width="44.566753"
+       height="16.945534"
+       x="128.39291"
+       y="152.8996"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="179.13565"
+       y="158.72067"
+       id="text2861"><tspan
+         sodipodi:role="line"
+         id="tspan2859"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="179.13565"
+         y="158.72067">php/jee/nodejs/asp</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect2863"
+       width="44.566753"
+       height="16.945534"
+       x="128.39291"
+       y="164.4026"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="146.45242"
+       y="170.22368"
+       id="text2867"><tspan
+         sodipodi:role="line"
+         id="tspan2865"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="146.45242"
+         y="170.22368">bbdd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="161.22592"
+       y="138.59041"
+       id="text2877"><tspan
+         sodipodi:role="line"
+         id="tspan2875"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="161.22592"
+         y="138.59041">SSOO (Linux)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="165.56599"
+       y="147.91579"
+       id="text2881"><tspan
+         sodipodi:role="line"
+         id="tspan2879"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="165.56599"
+         y="147.91579">servidor web</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="165.4754"
+       y="127.56669"
+       id="text2885"><tspan
+         sodipodi:role="line"
+         id="tspan2883"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="165.4754"
+         y="127.56669">equipo servidor</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#Arrow1);marker-end:url(#marker3321)"
+       d="M 148.94716,88.087584 V 153.15507"
+       id="path3100"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path2977"
+       cx="149.6057"
+       cy="109.73479"
+       r="7.9622078" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="156.02484"
+       y="111.20328"
+       id="text2981"><tspan
+         sodipodi:role="line"
+         id="tspan2979"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="156.02484"
+         y="111.20328">json</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3473"
+       width="68.17189"
+       height="80.691391"
+       x="199.59979"
+       y="17.218182"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3475"
+       width="61.581623"
+       height="66.911728"
+       x="202.95485"
+       y="28.241899"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3477"
+       width="52.954365"
+       height="52.772617"
+       x="206.4297"
+       y="38.067387"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3479"
+       width="44.566753"
+       height="16.945534"
+       x="211.70192"
+       y="49.69022"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="222.09482"
+       y="55.511303"
+       id="text3483"><tspan
+         sodipodi:role="line"
+         id="tspan3481"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="222.09482"
+         y="55.511303">css</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3485"
+       width="44.566753"
+       height="16.945534"
+       x="211.70192"
+       y="61.193226"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="227.00758"
+       y="67.014313"
+       id="text3489"><tspan
+         sodipodi:role="line"
+         id="tspan3487"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="227.00758"
+         y="67.014313">html</tspan></text>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3491"
+       width="44.566753"
+       height="16.945534"
+       x="211.70192"
+       y="71.378189"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="218.8596"
+       y="77.199265"
+       id="text3495"><tspan
+         sodipodi:role="line"
+         id="tspan3493"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="218.8596"
+         y="77.199265">js</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="253.84792"
+       y="35.381035"
+       id="text3499"><tspan
+         sodipodi:role="line"
+         id="tspan3497"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="253.84792"
+         y="35.381035">SSOO (Windows)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="252.76952"
+       y="44.36776"
+       id="text3503"><tspan
+         sodipodi:role="line"
+         id="tspan3501"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="252.76952"
+         y="44.36776">navegador web</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="244.3819"
+       y="24.357317"
+       id="text3507"><tspan
+         sodipodi:role="line"
+         id="tspan3505"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="244.3819"
+         y="24.357317">equipo cliente</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3509"
+       width="68.17189"
+       height="80.691391"
+       x="27.901958"
+       y="17.218182"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3511"
+       width="61.581623"
+       height="66.911728"
+       x="31.257015"
+       y="28.241899"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3513"
+       width="52.954365"
+       height="52.772617"
+       x="34.731869"
+       y="38.067387"
+       ry="2.3723748" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3515"
+       width="44.566753"
+       height="16.945534"
+       x="40.004086"
+       y="49.69022"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="50.396984"
+       y="55.511303"
+       id="text3519"><tspan
+         sodipodi:role="line"
+         id="tspan3517"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="50.396984"
+         y="55.511303">css</tspan></text>
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3521"
+       width="44.566753"
+       height="16.945534"
+       x="40.004086"
+       y="61.193226"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="55.30975"
+       y="67.014313"
+       id="text3525"><tspan
+         sodipodi:role="line"
+         id="tspan3523"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="55.30975"
+         y="67.014313">html</tspan></text>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.682873;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="rect3527"
+       width="44.566753"
+       height="16.945534"
+       x="40.004086"
+       y="71.378189"
+       ry="2.3723748" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="47.16177"
+       y="77.199265"
+       id="text3531"><tspan
+         sodipodi:role="line"
+         id="tspan3529"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="47.16177"
+         y="77.199265">js</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="82.150085"
+       y="35.381035"
+       id="text3535"><tspan
+         sodipodi:role="line"
+         id="tspan3533"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="82.150085"
+         y="35.381035">SSOO (Windows)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="81.071686"
+       y="44.36776"
+       id="text3539"><tspan
+         sodipodi:role="line"
+         id="tspan3537"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="81.071686"
+         y="44.36776">navegador web</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="72.684067"
+       y="24.357317"
+       id="text3543"><tspan
+         sodipodi:role="line"
+         id="tspan3541"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="72.684067"
+         y="24.357317">equipo cliente</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#Arrow1);marker-end:url(#marker3321)"
+       d="M 73.088548,88.764893 133.36905,153.49372"
+       id="path3549"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="circle3551"
+       cx="92.711739"
+       cy="109.73479"
+       r="7.9622078" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="99.130882"
+       y="111.20328"
+       id="text3555"><tspan
+         sodipodi:role="line"
+         id="tspan3553"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="99.130882"
+         y="111.20328">json</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;marker-start:url(#Arrow1);marker-end:url(#marker3321)"
+       d="M 230.22424,89.103548 163.84795,154.50969"
+       id="path3561"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="circle3563"
+       cx="209.8862"
+       cy="109.73479"
+       r="7.9622078" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:6.07929px;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84772;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="216.30534"
+       y="111.20328"
+       id="text3567"><tspan
+         sodipodi:role="line"
+         id="tspan3565"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.84773"
+         x="216.30534"
+         y="111.20328">json</tspan></text>
+  </g>
+</svg>

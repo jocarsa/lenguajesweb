@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <p>Este es texto</p>
+        <script>
+            var cuerpo = document.querySelector("body")
+            var texto = document.querySelector("p")
+            texto.onmouseover = function(){
+                console.log("estás pasando por encima")
+            }
+            texto.onmouseout = function(){
+                console.log("estás saliendo")
+            }
+            texto.onmousemove = function(e){
+                console.log("Te estás moviendo")
+                console.log(e.pageX,e.pageY)
+            }
+        </script>
+    </body>
+</html>
