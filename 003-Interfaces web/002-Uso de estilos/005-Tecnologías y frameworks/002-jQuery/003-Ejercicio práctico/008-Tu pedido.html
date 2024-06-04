@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-4.0.0-beta.min.js"></script>
+        <script
+  src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"
+  integrity="sha256-J8ay84czFazJ9wcTuSDLpPmwpMXOm573OUtZHPQqpEU="
+  crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <script>
+            $(function(){
+                $(document).tooltip();
+                $.getJSON("platos.json", { }, function(datos){
+                    datos[0].platos.forEach(function(plato) {
+                        $("#entrantes").append('<button class="ui-button ui-widget ui-corner-all" title="'+plato.precio+'"><img src="plato.jpg"><p>'+plato.nombre+'</p></button>')
+                    });
+                    datos[1].platos.forEach(function(plato) {
+                        $("#primeros").append('<button class="ui-button ui-widget ui-corner-all" title="'+plato.precio+'"><img src="plato.jpg"><p>'+plato.nombre+'</p></button>')
+                    });
+                    datos[2].platos.forEach(function(plato) {
+                        $("#segundos").append('<button class="ui-button ui-widget ui-corner-all" title="'+plato.precio+'"><img src="plato.jpg"><p>'+plato.nombre+'</p></button>')
+                    });
+                    datos[3].platos.forEach(function(plato) {
+                        $("#postres").append('<button class="ui-button ui-widget ui-corner-all" title="'+plato.precio+'"><img src="plato.jpg"><p>'+plato.nombre+'</p></button>')
+                    });
+                });
+                $("#menu").accordion();
+                $(document).on("click","button",function(){
+                    console.log("ok")
+                })
+            });
+            
+        </script>
+        <style>
+            #bienvenidos{
+                height:200px;
+            }
+            .platos{
+                height:200px;
+            }
+            button img{
+                width:100px;
+            }
+        </style>
+    </head>
+    <body>
+      <div id="menu">
+          <h3>Bienvenidos</h3>
+          <div id="bienvenidos">
+                <h3>Bienvenidos a nuestro restaurante</h3>
+              <p>Escoge los platos a continuación</p>
+          </div>
+          <h3>Entrantes</h3>
+          <div id="entrantes">
+
+          </div>
+          <h3>Primeros</h3>
+          <div id="primeros">
+
+          </div>
+          <h3>Segundos</h3>
+          <div id="segundos">
+
+          </div>
+          <h3>Postres</h3>
+          <div id="postres">
+
+          </div>
+          <h3>Tu pedido:</h3>
+          <div id="tupedido">
+
+          </div>
+        </div>
+    </body>
+</html>

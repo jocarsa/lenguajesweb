@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Accesibilidad</title>
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+        <button id="menos">-</button>
+        <button id="mas">+</button>
+        <h1>Jose Vicente Carratalá</h1>
+        <p>Esta es la web de Jose Vicente Carratlá, donde encontrarás información sobre mi</p>
+        <script>
+            var tamaño = 1;
+            document.getElementById("mas").onclick = function(){
+                tamaño += 0.1
+                document.querySelector("body").style.fontSize = tamaño+"em";
+            }
+            document.getElementById("menos").onclick = function(){
+                tamaño -= 0.1
+                document.querySelector("body").style.fontSize = tamaño+"em";
+            }
+        </script>
+    </body>
+</html>

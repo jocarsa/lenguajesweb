@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Accesibilidad</title>
+        <meta charset="utf-8">
+        <style>
+            .altocontraste{
+                filter:invert();
+                background:black;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="altocontraste">☀️</button>
+        <h1>Jose Vicente Carratalá</h1>
+        <p>Esta es la web de Jose Vicente Carratlá, donde encontrarás información sobre mi</p>
+        <script>
+            var altocontraste = false;
+            document.getElementById("altocontraste").onclick = function(){
+                if(altocontraste == false){
+                    document.querySelector("body").classList.add("altocontraste")
+                    altocontraste = true
+                }else{
+                    document.querySelector("body").classList.remove("altocontraste")
+                    altocontraste = false
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-4.0.0-beta.min.js"></script>
+        <style>
+            div{
+                width:100px;
+                height:100px;
+                background:red;
+                color:white;
+                padding:10px;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                $("#ver").click(function(){
+                    $("#origen").fadeIn("slow")
+                })
+                $("#ocultar").click(function(){
+                    $("#origen").fadeOut("slow")
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button id="ver">Ver</button>
+        <button id="ocultar">Ocultar</button>
+        <div id="origen">
+            Este es el texto en origen
+        </div>
+    </body>
+</html>

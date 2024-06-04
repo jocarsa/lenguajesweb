@@ -1,0 +1,38 @@
+[
+    {
+        "titulo":"Primer artículo",
+        "fecha":"2024-05-30",
+        "texto":"Este es el texto del artículo",
+        "imagen":"blog.jpg"
+    },
+    {
+        "titulo":"Segundo artículo",
+        "fecha":"2024-05-30",
+        "texto":"Este es el texto del artículo",
+        "imagen":"blog.jpg"
+    },
+    {
+        "titulo":"Tercer artículo",
+        "fecha":"2024-05-30",
+        "texto":"Este es el texto del artículo",
+        "imagen":"blog.jpg"
+    },
+    {
+        "titulo":"Cuarto artículo",
+        "fecha":"2024-05-30",
+        "texto":"Este es el texto del artículo",
+        "imagen":"blog.jpg"
+    },
+    {
+        "titulo":"Quinto artículo",
+        "fecha":"2024-05-30",
+        "texto":"Este es el texto del artículo",
+        "imagen":"blog.jpg"
+    },
+    {
+        "titulo":"Sexto artículo",
+        "fecha":"2024-05-30",
+        "texto":"Este es el texto del artículo",
+        "imagen":"blog.jpg"
+    }
+]

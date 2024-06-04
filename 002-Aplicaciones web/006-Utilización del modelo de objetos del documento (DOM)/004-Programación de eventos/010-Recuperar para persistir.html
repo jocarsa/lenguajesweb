@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Recordatorios</title>
+        <meta charset="utf">
+        <style>
+            article{
+                width:200px;
+                height:200px;
+                padding:10px;
+                background:yellow;
+                box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+                margin:10px;
+                float:left;
+                position:relative;
+            }
+            input[type=color],select{
+                position:absolute;
+                top:2px;
+                right:2px;
+                width:10px;
+                height:10px;
+                border:1px solid grey;
+                padding:0px;
+                margin:0px;
+            }
+            select{
+                right:14px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Recordatorios</h1>
+            <button id="nuevo">Nuevo recordatorio</button>
+        </header>
+        <main>
+            
+        </main>
+        <footer>
+            
+        </footer>
+        <script>
+            var principal = document.querySelector("main");
+            var nuevo = document.querySelector("#nuevo");
+            nuevo.onclick = function(){
+                let nuevorecordatorio = document.createElement("article");
+                nuevorecordatorio.setAttribute("contenteditable",true);
+                let selectorcolor = document.createElement("input");
+                selectorcolor.setAttribute("type","color");
+                nuevorecordatorio.appendChild(selectorcolor);
+                let selectorfuente = document.createElement("select")
+                let arial = document.createElement("option")
+                arial.setAttribute("value","Arial");
+                arial.innerHTML = "Arial";
+                selectorfuente.appendChild(arial)
+                let times = document.createElement("option")
+                times.setAttribute("value","Serif");
+                times.innerHTML = "Serif";
+                selectorfuente.appendChild(times)
+                let comic = document.createElement("option")
+                comic.setAttribute("value","cursive");
+                comic.innerHTML = "Comic Sans";
+                selectorfuente.appendChild(comic)
+                nuevorecordatorio.appendChild(selectorfuente);
+                principal.appendChild(nuevorecordatorio);
+                selectorcolor.onchange = function(){
+                    console.log("Te cambio el color")
+                    nuevorecordatorio.style.background = this.value
+                }
+                selectorfuente.onchange = function(){
+                    nuevorecordatorio.style.fontFamily = this.value
+                }
+                // Ahora guardo todo lo que he hecho
+                let articulos = document.querySelectorAll("article")
+                console.log(articulos)
+                let recordatorios = principal.innerHTML
+                console.log(recordatorios)
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-4.0.0-beta.min.js"></script>
+       <script
+  src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"
+  integrity="sha256-J8ay84czFazJ9wcTuSDLpPmwpMXOm573OUtZHPQqpEU="
+  crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <script>
+            $( function() {
+            $( ".widget input[type=submit], .widget a, .widget button" ).button();
+            $( "button, input, a" ).on( "click", function( event ) {
+              event.preventDefault();
+            } );
+          } );
+        </script>
+    </head>
+    <body>
+        
+    <button class="ui-button ui-widget ui-corner-all">A button element</button>
+ 
+        <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+
+        <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+INSERT INTO `blog` (`Identificador`, `titulo`, `fecha`, `texto`, `imagen`) VALUES (NULL, 'Esta es la primera noticia', '2023-06-04', 'Este es el texto de la primera noticia', 'blog.jpg');

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-4.0.0-beta.min.js"></script>
+       <script
+  src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"
+  integrity="sha256-J8ay84czFazJ9wcTuSDLpPmwpMXOm573OUtZHPQqpEU="
+  crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <script>
+            $( function() {
+                var availableTags = [
+                  "ActionScript",
+                  "AppleScript",
+                  "Asp",
+                  "BASIC",
+                  "C",
+                  "C++",
+                  "Clojure",
+                  "COBOL",
+                  "ColdFusion",
+                  "Erlang",
+                  "Fortran",
+                  "Groovy",
+                  "Haskell",
+                  "Java",
+                  "JavaScript",
+                  "Lisp",
+                  "Perl",
+                  "PHP",
+                  "Python",
+                  "Ruby",
+                  "Scala",
+                  "Scheme"
+                ];
+                $( "#tags" ).autocomplete({
+                  source: availableTags
+                });
+              } );
+        </script>
+    </head>
+    <body>
+        
+    <div class="ui-widget">
+      <label for="tags">Tags: </label>
+      <input id="tags">
+    </div>
+    </body>
+</html>

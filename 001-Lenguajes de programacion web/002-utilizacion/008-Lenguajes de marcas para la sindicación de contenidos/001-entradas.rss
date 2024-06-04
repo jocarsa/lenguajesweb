@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>La web de Jose Vicente</title>
+        <link>https://jocarsa.com</link>
+        <description>Formador, programador, y diseñador en Valencia, España</description>
+        <item>
+            <title>Primera entrada del blog</title>
+            <description>Este es el primer artículo del blog</description>
+            <link>https://jocarsa.com</link>
+            <fecha>2023-08-20</fecha>
+        </item>
+        <item>
+            <title>Segunda entrada del blog</title>
+            <description>Este es el segundo artículo del blog</description>
+            <link>https://jocarsa.com</link>
+            <fecha>2023-08-21</fecha>
+        </item>
+        <item>
+            <title>Segunda entrada del blog</title>
+            <description>Este es el segundo artículo del blog</description>
+            <link>https://jocarsa.com</link>
+            <fecha>2023-08-21</fecha>
+        </item>
+    </channel>
+</rss>

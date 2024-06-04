@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-4.0.0-beta.min.js"></script>
+        <style>
+            .rojo{color:red;}
+        </style>
+        <script>
+            $(document).ready(function(){
+                $("#anade").click(function(){
+                    $("#origen").addClass("rojo")
+                })
+                $("#quita").click(function(){
+                    $("#origen").removeClass("rojo")
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button id="anade">Añade</button>
+        <button id="quita">Quita</button>
+        <div id="origen">
+            Este es el texto en origen
+        </div>
+    </body>
+</html>

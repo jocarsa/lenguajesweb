@@ -1,0 +1,87 @@
+[
+    {
+        "tipo":"entrante",
+        "platos":[
+            {
+                "nombre":"entrante 1",
+                "imagen":"plato.jpg",
+                "precio":5
+            },
+            {
+                "nombre":"entrante 2",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+            ,
+            {
+                "nombre":"entrante 3",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+        ]
+    },
+    {
+        "tipo":"primero",
+        "platos":[
+            {
+                "nombre":"primero 1",
+                "imagen":"plato.jpg",
+                "precio":5
+            },
+            {
+                "nombre":"primero 2",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+            ,
+            {
+                "nombre":"primero 3",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+        ]
+    },
+    {
+        "tipo":"segundo",
+        "platos":[
+            {
+                "nombre":"segundo 1",
+                "imagen":"plato.jpg",
+                "precio":5
+            },
+            {
+                "nombre":"segundo 2",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+            ,
+            {
+                "nombre":"segundo 3",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+        ]
+    },
+    {
+        "tipo":"postre",
+        "platos":[
+            {
+                "nombre":"postre 1",
+                "imagen":"plato.jpg",
+                "precio":5
+            },
+            {
+                "nombre":"postre 2",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+            ,
+            {
+                "nombre":"postre 3",
+                "imagen":"plato.jpg",
+                "precio":5
+            }
+        ]
+    }
+    
+]
