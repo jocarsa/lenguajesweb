@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>EditorFotos</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos/estilo.css">
+        <script src="js/comportamiento.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>EditorFotos</h1>
+            <nav>
+                <button>Archivo</button>
+                <button>Editar</button>
+                <button>Ayuda</button>
+            </nav>
+        </header>
+        <main>
+            <section id="herramientas">
+                <h3>Herramientas</h3>
+                <button id="dibujar">✏️</button>
+                <button id="borrar">🖍️</button>
+                <hr>
+                <input type="color" id="selectorcolor">
+                <button id="grosor1" value="2">1</button>
+                <button id="grosor2" value="5">2</button>
+                <button id="grosor3" value="10">3</button>
+            </section>
+            <section id="dibujo" style="border-left:1px solid grey;border-right:1px solid grey;">
+                <h3>Dibujo</h3>
+                <canvas id="lienzo" width=512 height=512></canvas>
+            </section>
+            <section id="parametros">
+                <h3>Parámetros</h3>
+            </section>
+        </main>
+        <footer>
+            (c) 2024 Jose Vicente Carratalá
+        </footer>
+    </body>
+</html>
