@@ -1,0 +1,35 @@
+:root{
+    --colorprincipal: indigo;
+    --colorfondo : indigo;
+    --accion:red;
+}
+@font-face {
+  font-family: UbuntuRegular;
+  src: url(fuentes/Ubuntu-R.ttf);
+}
+@font-face {
+  font-family: UbuntuBold;
+  src: url(fuentes/Ubuntu-B.ttf);
+}
+body{
+    font-family:UbuntuRegular,sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color:var(--colorprincipal);
+}
+input{
+    width:100%;
+    border:1px solid var(--colorprincipal);
+    border-radius:3px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:5px;
+    margin-top:10px;
+    background:white;
+    box-sizing: border-box;
+}
+.accion{
+    background:var(--accion);
+    border:1px solid var(--accion);
+    color:white;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "nombre":"clientes",
+        "icono":"clientes"
+    },
+    {
+        "nombre":"productos",
+        "icono":"productos"
+    },
+    {
+        "nombre":"pedidos",
+        "icono":"pedidos"
+    },
+    {
+        "nombre":"lineaspedido",
+        "icono":"lineaspedido"
+    }
+]

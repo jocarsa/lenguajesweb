@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    background:rgb(240,240,240);
+    height:100%;
+}
+header,main,footer{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    text-align:center;
+    position:relative;
+    z-index:100;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+}
+main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.producto img{
+    width:100%;
+}
+aside{
+    width:400px;
+    height:600px;
+    position:fixed;
+    background:white;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+    padding:20px;
+    bottom:0px;
+    right:20px;
+}
+#contieneproductos{
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.animaparece{
+    animation:aparece 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes aparece{
+    0%{right:20px;z-index:0;}
+    50%{right:-400px;z-index:100;}
+    100%{right:20px;z-index:200;}
+}

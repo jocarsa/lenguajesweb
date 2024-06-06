@@ -1,0 +1,23 @@
+#fondomodal{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.1);
+    z-index:500;
+    backdrop-filter: blur(5px);
+}
+#modal{
+    position:absolute;
+    width:80%;
+    height:80%;
+    top:50%;
+    left:50%;
+    margin-left:-40%;
+    margin-top:-25%;
+    background:white;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+    border-radius:5px;
+}

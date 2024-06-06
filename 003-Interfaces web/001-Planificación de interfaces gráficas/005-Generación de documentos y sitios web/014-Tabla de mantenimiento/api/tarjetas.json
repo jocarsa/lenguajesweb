@@ -1,0 +1,37 @@
+[
+    {
+        "titulo":"Tarjeta 1",
+        "texto":"Este es el texto de la tarjeta 1",
+        "valor":45
+    },
+    {
+        "titulo":"Tarjeta 2",
+        "texto":"Este es el texto de la tarjeta 2",
+        "valor":45
+    },
+    {
+        "titulo":"Tarjeta 3",
+        "texto":"Este es el texto de la tarjeta 3",
+        "valor":45
+    },
+    {
+        "titulo":"Tarjeta 4",
+        "texto":"Este es el texto de la tarjeta 4",
+        "valor":45
+    },
+    {
+        "titulo":"Tarjeta 5",
+        "texto":"Este es el texto de la tarjeta 5",
+        "valor":45
+    },
+    {
+        "titulo":"Tarjeta 6",
+        "texto":"Este es el texto de la tarjeta 6",
+        "valor":45
+    },
+    {
+        "titulo":"Tarjeta 7",
+        "texto":"Este es el texto de la tarjeta 7",
+        "valor":45
+    }
+]

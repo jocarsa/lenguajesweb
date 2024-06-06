@@ -1,0 +1,31 @@
+html,body{
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+
+}
+aside{
+    width:400px;
+}
+main{
+    width:100%;
+    background-color:var(--colorfondo );
+    color:white;
+}
+main h1,main h2{
+    color:white;
+}
+main,aside{
+    box-sizing: border-box;
+    padding:20px;
+}
