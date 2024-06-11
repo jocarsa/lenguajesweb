@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    background:rgb(240,240,240);
+    height:100%;
+}
+header,main,footer{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    text-align:center;
+}
+main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.producto img{
+    width:100%;
+}

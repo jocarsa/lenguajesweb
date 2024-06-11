@@ -1,0 +1,66 @@
+[
+    {
+        "id":"1",
+        "razon":"Cliente numero 1",
+        "direccion":"Calle del cliente 1",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 2",
+        "direccion":"Calle del cliente 2",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 3",
+        "direccion":"Calle del cliente 3",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 4",
+        "direccion":"Calle del cliente 4",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 5",
+        "direccion":"Calle del cliente 5",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 6",
+        "direccion":"Calle del cliente 6",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 7",
+        "direccion":"Calle del cliente 7",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    },
+    {
+        "id":"1",
+        "razon":"Cliente numero 8",
+        "direccion":"Calle del cliente 8",
+        "cp":"46001",
+        "localidad":"Valencia",
+        "idcliente":"65654H"
+    }
+]

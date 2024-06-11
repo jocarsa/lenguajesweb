@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "nombre":"Producto numero 1",
+        "precio":"45",
+        "peso":"3",
+        "dimensiones":"4x5x6",
+        "imagen":"producto.webp"
+    },
+    {
+        "id":"1",
+        "nombre":"Producto numero 2",
+        "precio":"45",
+        "peso":"3",
+        "dimensiones":"4x5x6",
+        "imagen":"producto.webp"
+    },
+    {
+        "id":"1",
+        "nombre":"Producto numero 3",
+        "precio":"45",
+        "peso":"3",
+        "dimensiones":"4x5x6",
+        "imagen":"producto.webp"
+    },
+    {
+        "id":"1",
+        "nombre":"Producto numero 4",
+        "precio":"45",
+        "peso":"3",
+        "dimensiones":"4x5x6",
+        "imagen":"producto.webp"
+    },
+    {
+        "id":"1",
+        "nombre":"Producto numero 5",
+        "precio":"45",
+        "peso":"3",
+        "dimensiones":"4x5x6",
+        "imagen":"producto.webp"
+    },
+    {
+        "id":"1",
+        "nombre":"Producto numero 6",
+        "precio":"45",
+        "peso":"3",
+        "dimensiones":"4x5x6",
+        "imagen":"producto.webp"
+    }
+]

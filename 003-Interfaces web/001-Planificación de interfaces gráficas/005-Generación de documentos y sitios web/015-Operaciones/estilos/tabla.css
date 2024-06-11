@@ -1,0 +1,14 @@
+#tabla{
+    padding:30px;
+}
+
+td,th{
+    padding:10px;
+}
+tbody tr:nth-child(odd){
+    background:rgb(240,240,240);
+}
+thead{
+    background:var(--colorfondo);
+    color:white;
+}

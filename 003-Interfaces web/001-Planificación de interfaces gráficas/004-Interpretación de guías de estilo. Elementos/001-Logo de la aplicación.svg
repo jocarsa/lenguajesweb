@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="143.89214mm"
+   height="55.008163mm"
+   viewBox="0 0 143.89214 55.008163"
+   version="1.1"
+   id="svg7529"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="001-Logo de la aplicación.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7531"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5625561"
+     inkscape:cx="336.62791"
+     inkscape:cy="99.836414"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7526" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.483779,-56.787559)">
+    <path
+       sodipodi:type="star"
+       style="fill:#4b0082;fill-opacity:1;stroke-width:0.964999;stroke-linecap:round;stroke-linejoin:round"
+       id="path9154"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="61.303013"
+       sodipodi:cy="69.444817"
+       sodipodi:r1="27.504082"
+       sodipodi:r2="23.819237"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 85.122246,83.196858 -23.819233,13.75204 -23.819234,-13.752041 0,-27.504081 23.819234,-13.752041 23.819233,13.752041 z"
+       transform="translate(0,14.846824)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:32.2002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:end;text-anchor:end;fill:#4b0082;fill-opacity:1;stroke-width:9.78681;stroke-linecap:round;stroke-linejoin:round"
+       x="182.82494"
+       y="96.419487"
+       id="text10884"><tspan
+         sodipodi:role="line"
+         id="tspan10882"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#4b0082;fill-opacity:1;stroke-width:9.78681"
+         x="182.82494"
+         y="96.419487">indigo</tspan></text>
+  </g>
+</svg>
